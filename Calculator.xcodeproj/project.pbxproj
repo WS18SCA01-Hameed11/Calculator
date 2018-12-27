@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0191D221D4A85500E321CA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D0191D121D4A85500E321CA /* btn.wav */; };
 		5DC180EE21CDF6AC0011660C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC180ED21CDF6AC0011660C /* AppDelegate.swift */; };
 		5DC180F021CDF6AC0011660C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC180EF21CDF6AC0011660C /* ViewController.swift */; };
 		5DC180F321CDF6AC0011660C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC180F121CDF6AC0011660C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D0191D121D4A85500E321CA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		5DC180EA21CDF6AB0011660C /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC180ED21CDF6AC0011660C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DC180EF21CDF6AC0011660C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5DC180ED21CDF6AC0011660C /* AppDelegate.swift */,
+				5D0191D121D4A85500E321CA /* btn.wav */,
 				5DC180EF21CDF6AC0011660C /* ViewController.swift */,
 				5DC180F121CDF6AC0011660C /* Main.storyboard */,
 				5DC180F421CDF6B70011660C /* Assets.xcassets */,
@@ -125,6 +128,7 @@
 				5DC180F821CDF6B70011660C /* LaunchScreen.storyboard in Resources */,
 				5DC180F521CDF6B70011660C /* Assets.xcassets in Resources */,
 				5DC180F321CDF6AC0011660C /* Main.storyboard in Resources */,
+				5D0191D221D4A85500E321CA /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RB2U67QS54;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RB2U67QS54;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
